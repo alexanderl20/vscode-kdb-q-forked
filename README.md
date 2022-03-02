@@ -21,14 +21,9 @@ This is personal preference, sublime syntax:
 * has highlighting for assigning variables
 
 
-Original:
-
-![image](https://user-images.githubusercontent.com/92346145/156467735-8c9adb7c-af02-4e30-b7cb-3d96d1ba0825.png)
-
-
-New:
-
-![image](https://user-images.githubusercontent.com/92346145/156467756-effb8a0a-a6f7-457d-9af7-8c77cc401c55.png)
+|Original                                                                                                       |Sublime                                                                                                        |
+|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+|![image](https://user-images.githubusercontent.com/92346145/156467735-8c9adb7c-af02-4e30-b7cb-3d96d1ba0825.png)|![image](https://user-images.githubusercontent.com/92346145/156467756-effb8a0a-a6f7-457d-9af7-8c77cc401c55.png)|
 
 
 
