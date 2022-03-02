@@ -18,10 +18,18 @@ This README will only contain the changes that I made, full details of this exte
 Personal preference, has highlighting for symbols and knows the difference between kdb-specific and custom namespaces
 
 
-## Bug Fixes Improvements
+
+## QoL Improvements
+
+* Any trailing semicolons in code are removed at execution to allow results to be returned
+* Assigning values to variable will still return data (eg a:"test" will now return "test")
+* typing eachboth ' does not result in quotes '' being created
+
+
+## Bug Fixes 
 
 * Symbols can now be queried
-* typing each-both ' does not result in quotes '' being created
+* Strings appear as they should in console 
 
 
 
