@@ -23,7 +23,7 @@ This is personal preference, sublime syntax:
 
 |Original                                                                                                       |Sublime                                                                                                        |
 |---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-|![image](https://user-images.githubusercontent.com/92346145/156467735-8c9adb7c-af02-4e30-b7cb-3d96d1ba0825.png)|![image](https://user-images.githubusercontent.com/92346145/156467756-effb8a0a-a6f7-457d-9af7-8c77cc401c55.png)|
+|![image](https://user-images.githubusercontent.com/92346145/156468768-a2f79b2d-2a17-4fac-97f8-3b48da41b97a.png)|![image](https://user-images.githubusercontent.com/92346145/156468786-d41aa062-1c1a-4fa2-a4f1-c35e9ecb1913.png)|
 
 
 
