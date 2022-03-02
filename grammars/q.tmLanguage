@@ -4,10 +4,10 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>qnew</string>
+		<string>q</string>
 	</array>
 	<key>name</key>
-	<string>q/kdb-New</string>
+	<string>q</string>
 
 	<key>patterns</key>
 	<array>
