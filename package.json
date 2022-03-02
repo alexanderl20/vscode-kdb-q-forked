@@ -1,7 +1,7 @@
 {
-	"publisher": "xidaozu",
-	"name": "vscode-kdb-q",
-	"displayName": "vscode-kdb-q",
+	"publisher": "Livingston",
+	"name": "vscode-kdb-q-forked",
+	"displayName": "vscode-kdb-q-forked",
 	"description": "Provides kdb+/q language features for Visual Studio Code",
 	"version": "1.2.0",
 	"icon": "resources/static/logo.png",
@@ -99,7 +99,8 @@
 			{
 				"language": "q",
 				"scopeName": "source.q",
-				"path": "./grammars/vscode-kdb-q.json"
+				"path": "./grammars/q.tmLanguage"
+
 			}
 		],
 		"views": {
@@ -220,6 +221,6 @@
 	"dependencies": {
 		"@types/long": "^4.0.1",
 		"long": "^4.0.0",
-		"node-q": "^2.5.0"
+		"node-q": "^2.6.0"
 	}
 }

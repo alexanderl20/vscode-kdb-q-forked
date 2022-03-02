@@ -1,4 +1,40 @@
-# vscode-kdb-q
+# vscode-kdb-q-forked
+
+This is a forked version of [xidaozu's](https://github.com/real-xidaozu/vscode-kdb-q) vscode-kdb-q extension - V1.2.0. 
+
+This README will only contain the changes that I made, full details of this extension can be found [here](https://marketplace.visualstudio.com/items?itemName=xidaozu.vscode-kdb-q)
+
+
+## Keyboard Shortcuts
+
+| Keyboard shortcut                                  | Command                                                            |
+| ---------------------------------------------------| ------------------------------------------------------------------ |
+| <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>Enter</kbd>  | If code is highlighted then run it, else run current line as query |
+
+
+
+## Sublime Syntax highlighting
+
+Personal preference, has highlighting for symbols and knows the difference between kdb-specific and custom namespaces
+
+
+## Bug Fixes
+
+* Symbols can now be queried
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This [Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=xidaozu.vscode-kdb-q) provides extensive features for the [kdb+/q](https://code.kx.com/q/) programming language.
 Features include syntax highlighting, auto completion, executing queries on a kdb+ server, table visualization and more.
