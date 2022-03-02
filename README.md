@@ -39,5 +39,5 @@ This is personal preference, sublime syntax:
 ## Bug Fixes 
 
 * Symbols can now be queried and not error out
-* Strings appear as correct syntax  
+* Strings now appear as strings in console
 * console size can be adjusted as expected, min size set to 20 200
