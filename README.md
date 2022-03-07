@@ -1,6 +1,6 @@
 # vscode-kdb-q-forked
 
-This is a forked version of [xidaozu's](https://github.com/real-xidaozu/vscode-kdb-q) extension [vscode-kdb-q]](https://marketplace.visualstudio.com/items?itemName=xidaozu.vscode-kdb-q) - V1.2.0.
+This is a forked version of [xidaozu's](https://github.com/real-xidaozu/vscode-kdb-q) extension [vscode-kdb-q](https://marketplace.visualstudio.com/items?itemName=xidaozu.vscode-kdb-q) - V1.2.0.
 
 
 This README will only contain changes made from the [original](https://github.com/real-xidaozu/vscode-kdb-q).
@@ -27,13 +27,13 @@ This is personal preference, sublime syntax:
 
 
 
-
-
 ## QoL Improvements
 
-* Any trailing semicolons in code are removed at execution to allow results to be returned
-* Assigning values to variable will still return data (eg a:"test" will now return "test", where before it returned (::))
-* typing each-both ' does not result in quotes '' being created
+* Results returned even if line ends in semi-colon
+* Results returned when assigning values
+    * eg a:"test" will now return "test", where before it returned (::)
+* Typing each-both ' does not result in quotes '' being created
+* Code can be commented out using VSCode shortcut
 
 
 ## Bug Fixes 
@@ -41,3 +41,8 @@ This is personal preference, sublime syntax:
 * Symbols can now be queried and not error out
 * Strings now appear as strings in console
 * console size can be adjusted as expected, min size set to 20 200
+
+
+## Points of Note
+* The "grid view" shown in the original [extension](https://marketplace.visualstudio.com/items?itemName=xidaozu.vscode-kdb-q) does not work.
+    * This was to fix all issues of displaying results correctly in the console

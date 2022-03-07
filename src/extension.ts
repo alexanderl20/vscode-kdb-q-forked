@@ -168,7 +168,7 @@ export class Connection {
 
         // Wrap the query result, make sure the query is executed in global scope.
         // let trap = '.Q.trp[{ x:value x; s:{ $[type[x] in 0 98 99h; .Q.s1 x; x] }; x:$[not 99h = type x; x; &[98h = type key x; 98h = type value x]; [kc:cols key x; 0!x]; x]; t:type x; c:system "c"; system "c ' + maxRows + ' ", string $[t = 98h; ' + maxNestedCols + '; ' + maxCols + ']; r:`result`type`keys`meta`data!(1b; t; kc; $[t = 98h; 0!meta x; ()]; $[t = 98h; s each/: x; t in 0 99h; .Q.s x; x]); system "c ", .Q.s1 c; :r }; ; { \'(x, "\n\n", .Q.sbt y) }]';
-        let trap = '.Q.trp[{x:parse$[-11=type x;-3!x;x];x:eval$[0h=type x;_[;x]neg?[;0b](::)~/:reverse x;x];system"c ",-3!20 200|c:system "c";r:`result`type`keys`meta`data!(1b;0h;();();.Q.s[x]);system"c ",.Q.s1 c;r;:r};;{\'(x,"\n\n","\n"sv 2 sublist"\n"vs .Q.sbt y)}]';
+       let trap = '.Q.trp[{x:parse$[-11=type x;-3!x;x];x:eval$[0h=type x;_[;x]neg(";";(::))~(first;last)@\\:x;x];system"c ",-3!20 200|c:system "c";r:`result`type`keys`meta`data!(1b;0h;();();.Q.s x);system"c ",-3!c;r};;{\'(x,"\n\n","\n"sv 2 sublist"\n"vs .Q.sbt y)}]';
 
         // // TODO: Make these configurable through settings.
         // // A server explorer showing all servers available in gateway is also nice.
