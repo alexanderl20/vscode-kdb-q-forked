@@ -40,7 +40,7 @@ This is personal preference:
 * console size can be adjusted as expected, min size set to 20 200
 
 
-## Points of Note
+## NOTE
 * The "grid view" shown in the original [extension](https://marketplace.visualstudio.com/items?itemName=xidaozu.vscode-kdb-q) does not work.
     * However, everything now displayed in the console is how the q-Gods intended
 * Theme shown in syntax image is Monokai Dark Soda
