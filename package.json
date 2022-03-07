@@ -1,7 +1,7 @@
 {
 	"publisher": "Alexanderl20",
 	"name": "vscode-kdb-q-forked",
-	"displayName": "vscode-kdb-q-forked",
+	"displayName": "KX - kdb+/q",
 	"description": "Provides kdb+/q language features for Visual Studio Code",
 	"version": "1.2.1",
 	"icon": "resources/static/KX-Logo.png",

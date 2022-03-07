@@ -1,4 +1,4 @@
-# vscode-kdb-q-forked
+# KX - kdb+/q
 
 This is a forked version of [xidaozu's](https://github.com/real-xidaozu/vscode-kdb-q) extension [vscode-kdb-q](https://marketplace.visualstudio.com/items?itemName=xidaozu.vscode-kdb-q) - V1.2.0.
 
