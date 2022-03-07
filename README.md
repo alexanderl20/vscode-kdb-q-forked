@@ -45,4 +45,4 @@ This is personal preference, sublime syntax:
 
 ## Points of Note
 * The "grid view" shown in the original [extension](https://marketplace.visualstudio.com/items?itemName=xidaozu.vscode-kdb-q) does not work.
-    * This was to fix all issues of displaying results correctly in the console
+    * However, everything now displayed in the console is how the q-Gods intended
