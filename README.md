@@ -35,6 +35,7 @@ This is personal preference:
 
 ## Bug Fixes 
 
+* Nested table objects are printed properly
 * Symbols can now be queried and not error out
 * Strings now appear as strings in console
 * console size can be adjusted as expected, min size set to 20 200
