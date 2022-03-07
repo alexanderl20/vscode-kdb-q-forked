@@ -41,7 +41,7 @@ This is personal preference:
 
 
 ## NOTE
-* The "grid view" shown in the original [extension](https://marketplace.visualstudio.com/items?itemName=xidaozu.vscode-kdb-q) does not work.
+* The "grid view" shown in the original [extension](https://marketplace.visualstudio.com/items?itemName=xidaozu.vscode-kdb-q) no longer works.
     * This was required to fix console output formatting, although it is now how the q-Gods intended
 * Theme shown in syntax image is Monokai Dark Soda
 * Server connections are added via settings.json like so:
