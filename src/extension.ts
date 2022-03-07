@@ -168,11 +168,8 @@ export class Connection {
 
         // Wrap the query result, make sure the query is executed in global scope.
         // let trap = '.Q.trp[{ x:value x; s:{ $[type[x] in 0 98 99h; .Q.s1 x; x] }; x:$[not 99h = type x; x; &[98h = type key x; 98h = type value x]; [kc:cols key x; 0!x]; x]; t:type x; c:system "c"; system "c ' + maxRows + ' ", string $[t = 98h; ' + maxNestedCols + '; ' + maxCols + ']; r:`result`type`keys`meta`data!(1b; t; kc; $[t = 98h; 0!meta x; ()]; $[t = 98h; s each/: x; t in 0 99h; .Q.s x; x]); system "c ", .Q.s1 c; :r }; ; { \'(x, "\n\n", .Q.sbt y) }]';
-        // let trap = '.Q.trp[{x:$[10=abs type x;eval parse $[";"=last x;-1_x;x];x];s:{ $[type[x] in 0 98 99h; .Q.s1 x; x] }; x:$[not 99h = type x; x; &[98h = type key x; 98h = type value x]; [kc:cols key x; 0!x]; x]; t:$[any -10 10 11 in n:type x;0h;n]; c:system "c"; system "c ' + maxRows + ' ", string $[t = 98h; ' + maxNestedCols + '; ' + maxCols + '];if[and[1=count x]10=type x;x:enlist x]; r:`result`type`keys`meta`data!(1b; t; kc; $[t = 98h; 0!meta x; ()]; $[t = 98h; s each/: x; t in 0 99h; .Q.s x; x]); system "c ", .Q.s1 c; :r }; ; { \'(x, "\n\n", .Q.sbt y) }]';
+        let trap = '.Q.trp[{x:parse$[-11=type x;-3!x;x];x:eval$[0h=type x;_[;x]neg?[;0b](::)~/:reverse x;x];system"c ",-3!20 200|c:system "c";r:`result`type`keys`meta`data!(1b;0h;();();.Q.s[x]);system"c ",.Q.s1 c;r;:r};;{\'(x,"\n\n","\n"sv 2 sublist"\n"vs .Q.sbt y)}]';
 
-        let trap = '.Q.trp[{x:$[10=abs type x;eval parse $[";"=last x;-1_x;x];x];s:{$[type[x] in 0 98 99h; .Q.s1 x; x]};x:$[not 99h = type x; x; &[98h = type key x; 98h = type value x]; [kc:cols key x; 0!x]; x];t:$[any -10 10 11 in n:type x;0h;n];c:system "c";system"c "," "sv string c|20 200;if[and[1=count x]10=type x;x:enlist x]; r:`result`type`keys`meta`data!(1b; t; kc; $[t = 98h; 0!meta x; ()]; $[t = 98h; s each/: x; t in 0 99h; .Q.s x; x]); system "c ", .Q.s1 c; :r }; ; { \'(x, "\n\n", .Q.sbt y) }]';
-
-        
         // // TODO: Make these configurable through settings.
         // // A server explorer showing all servers available in gateway is also nice.
         // var gatewayMode = false;
@@ -195,21 +192,6 @@ export class Connection {
             if (result.type === 101) {
                 result.data = "::" ;
             }
-
-            
-            // Fix symbols too - definitely better ways of doing this but I don't know JS so...
-            if (Math.abs(result.type) === 11){
-                result.data = '`' + result.data;
-            }
-            
-            // This is to make it strings look nice in output
-            // if (Math.abs(result.type) === 10) {
-            //     result.data = '"' + result.data + '"';
-            // }
-
-            // if (result.type === 11){
-            //     result.type = -11;
-            // }
     
             // Stringify result, since we'LL be outputting this somewhere anyway.
             result.data = stringifyResult(result);
@@ -960,9 +942,9 @@ function stringify(t: string, x: any): string {
             return "()"; // TODO: Add type in front of ()?
         }
 
-        if (typeof(x[0]) === "object") {
-            return "[nested]";
-        }
+        // if (typeof(x[0]) === "object") {
+        //     return "[nested]";
+        // }
 
         return (x.length > 1 ? '' : ',') +
               t === "s" ? ('`' + x.map((y: any) => stringify(t, y)).join('`'))
