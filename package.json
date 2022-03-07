@@ -13,7 +13,7 @@
 	},
 	"bugs": {
 		"url": "https://github.com/alexanderl20/vscode-kdb-q-forked/issues",
-		"email": "alexanderjpl20@gmail.com"
+		"email": "alivingston@kx.com"
 	},
 	"engines": {
 		"vscode": "^1.47.0"
