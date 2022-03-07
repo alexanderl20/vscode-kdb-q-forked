@@ -16,10 +16,7 @@ This README will only contain changes made from the [original](https://github.co
 
 ## Sublime Syntax highlighting
 
-This is personal preference, sublime syntax:
-* has different colours for symbols, .Q namespaces and built in functions
-* has highlighting for assigning variables
-
+This is personal preference:
 
 |Original                                                                                                       |Sublime                                                                                                        |
 |---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
@@ -43,6 +40,13 @@ This is personal preference, sublime syntax:
 * console size can be adjusted as expected, min size set to 20 200
 
 
-## Points of Note
-* The "grid view" shown in the original [extension](https://marketplace.visualstudio.com/items?itemName=xidaozu.vscode-kdb-q) does not work.
-    * This was to fix all issues of displaying results correctly in the console
+## NOTE
+* The "grid view" shown in the original [extension](https://marketplace.visualstudio.com/items?itemName=xidaozu.vscode-kdb-q) no longer works.
+    * This was required to fix console output formatting, although it is now how the q-Gods intended
+* Theme shown in syntax image is Monokai Dark Soda
+* Server connections are added via settings.json like so:
+    * (not changed from [original](https://marketplace.visualstudio.com/items?itemName=xidaozu.vscode-kdb-q) - just useful to show)
+
+![image](https://user-images.githubusercontent.com/92346145/156981123-2db87e58-18d7-4eac-a5e6-b15f947bdce5.png)
+
+
