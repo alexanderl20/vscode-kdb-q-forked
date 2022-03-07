@@ -16,10 +16,7 @@ This README will only contain changes made from the [original](https://github.co
 
 ## Sublime Syntax highlighting
 
-This is personal preference, sublime syntax:
-* has different colours for symbols, .Q namespaces and built in functions
-* has highlighting for assigning variables
-
+This is personal preference:
 
 |Original                                                                                                       |Sublime                                                                                                        |
 |---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
@@ -46,3 +43,4 @@ This is personal preference, sublime syntax:
 ## Points of Note
 * The "grid view" shown in the original [extension](https://marketplace.visualstudio.com/items?itemName=xidaozu.vscode-kdb-q) does not work.
     * However, everything now displayed in the console is how the q-Gods intended
+* Theme shown in syntax image is Monokai Dark Soda
