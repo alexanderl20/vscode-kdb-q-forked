@@ -42,5 +42,5 @@ This is personal preference:
 
 ## NOTE
 * The "grid view" shown in the original [extension](https://marketplace.visualstudio.com/items?itemName=xidaozu.vscode-kdb-q) does not work.
-    * However, everything now displayed in the console is how the q-Gods intended
+    * Although, everything displayed is now how the q-Gods intended
 * Theme shown in syntax image is Monokai Dark Soda
