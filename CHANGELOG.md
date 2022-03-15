@@ -1,6 +1,12 @@
 # Change Log
 
-## 1.2.1 - Forked Version
+## 1.2.2 - Forked Version V1.0.1
+
+* .quke files open with q-syntax
+* comments shortcut changed from "//" to "/"
+
+
+## 1.2.1 - Forked Version V1.0.0
 
 New Features:
 

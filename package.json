@@ -90,7 +90,8 @@
 				],
 				"extensions": [
 					".q",
-					".k"
+					".k",
+					".quke"
 				],
 				"configuration": "./grammars/vscode-kdb-q-config.json"
 			}
