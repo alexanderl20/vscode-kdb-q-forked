@@ -3,7 +3,7 @@
 	"name": "vscode-kdb-q-forked",
 	"displayName": "KX - kdb+/q",
 	"description": "Provides kdb+/q language features for Visual Studio Code",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"icon": "resources/static/KX-Logo.png",
 	"homepage": "https://github.com/alexanderl20/vscode-kdb-q-forked",
 	"license": "GPL3",
